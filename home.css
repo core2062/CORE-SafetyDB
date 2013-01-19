@@ -1,3 +1,4 @@
+/*whole page stuff*/
 body{
 	background-image:url('images/twinkle_twinkle.png');
 }
@@ -7,71 +8,100 @@ div#containing_div{
 	margin-right:auto;
 	margin-left:auto;
 }
+/*end of whole page stuff*/
 
-/*Header stuff*/
-div#Header{
+/*header stuff*/
+div.Header{
 	position:absolute;
+	opacity:.7;
+}
+div#Header{
 	display:inline;
 	top:2.2em;
+	width:100%;
 	font-size:30;
 	font-family:'Orbitron', sans-serif;
 	color:#B3B3B3;
-	width:100%;
-	height:5em;
 }
 div#title_bar{
-	position:absolute;
-	width:80%;
-	right:0;
-	top:6.4em;
-	left:9.5em;
+	width:82.75%;
+	right:0em;
+	top:7.3em;
 	padding:.2em;
 	padding-left:.4em;
-	background: -moz-linear-gradient(top, #d1d1d1 0%, #b3b3b3 100%);
-	opacity:.7;
+	background: -moz-linear-gradient(top, #d1d1d1 0%, #B3B3B3 100%);
+	border-style:solid;
+	border-width:.02em;
+	border-color:#3D3D3D;
 	font-family:'Iceland', cursive;
 	font-size:16;
-	color:#1E1E1E;
+	color:#0A0A0A;
 }
+/*end of header stuff*/
 
-/*Title/Navigation stuff*/
-ul#top_navbar{
+/*title/navigation stuff*/
+ul li.Navigation{
 	position:relative;
-	top: -2em;
-	margin-top:2em;
 	margin-left:auto;
 	margin-right:auto;
+	opacity:.7;
+}
+ul#top_navbar{
+	top: -1em;
+	margin-top:2em;
+	height:2em;
 	border-top-style:solid;
-	border-top-color:#3D3D3D;
-	border-top-width:3px;
-	padding-top: 1em;
-	height:3em;
-	font-size:0;
+	border-bottom-style:solid;
+	border-width:.2em;
+	border-color:#3D3D3D;
+	padding-top:.5em;
 }
 li.navbar_buttons{
 	display:inline;
-	position:relative;
-	top:.2em;
-	padding-top:.2em;
-	padding-bottom:.2em;
-	padding-left:.75em;
-	padding-right:.75em;
-	opacity:.8;
-	font-family:'Iceland', cursive;
-	font-size:23;
-	color:#D1D1D1;
-}
-li:hover{
-	color:#1E1E1E;
-	opacity:.7;
+	margin-right:3.75em;
 }
 a.nav_pg_link{
 	text-decoration:none;
 	color:#949494;
+	font-family:'Iceland', cursive;
+	font-size:23;
 }
+a.nav_pg_link:hover{
+	color:#FF5400;
+}
+/*end of title/navigation stuff*/
 
-/*Content block*/
-div.content_background{
-	
+/*content stuff*/
+div.content{
+	opacity:.7;
 }
-	
+div#content_container{
+	position:relative;
+	display:block;
+	width:100%;
+	height:40em;
+	background-color:#3D3D3D;
+}
+div.content_title{
+	position:float;
+	width:82.75%;
+	margin:.2em;
+	padding:.1em;
+	background: -moz-linear-gradient(top, #0a0a0a 0%, #0f0f0f 100%);
+	border-style:solid;
+	border-width:.01em;
+	border-color:#080808;
+	font-family:'Iceland', cursive ;
+	font-size:26;
+	color:#949494;
+}
+p.content{
+	position:float;
+	padding:.1em;
+	background-color:#B3B3B3;
+	border-style:solid;
+	border-width:.02em;
+	border-color:#3D3D3D;
+
+}
+/*end of content stuff*/	
