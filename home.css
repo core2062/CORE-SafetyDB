@@ -51,15 +51,10 @@ div#title_bar{
 	width:82.75%;
 	right:0em;
 	top:7.3em;
-	padding:.3em;
-	padding-left:.4em;
-	border-style:solid;
-	border-width:.2em;
-	border-color:#3D3D3D;
-	border-right-width:.5em;
-	border-left-width:.5em;
-	border-right-color:#FF5400;
-	border-left-color:#FF5400;
+	padding:.3em .3em .3em  .4em;
+	border:.15em solid #3D3D3D;
+	border-right:.5em solid #FF5400;
+	border-left:.5em solid #FF5400;
 	font-family:'Iceland', cursive;
 	font-size:16;
 	color:#121212;
@@ -74,13 +69,11 @@ div#title_bar{
 }
 ul#top_navbar{
 	top:-1em;
-	margin-top:4em;
 	min-height: 2em;
-	border-top-style:solid;
-	border-bottom-style:solid;
-	border-width:.2em;
-	border-color:#3D3D3D;
+	margin-top:4em;
 	padding-top:.5em;
+	border-top:.2em solid #3D3D3D;
+	border-bottom:.2em solid #3D3D3D;
 }
 li.navbar_buttons{
 	display:inline;
@@ -96,6 +89,19 @@ a.nav_pg_link{
 a.nav_pg_link:hover{
 	color:#FF5400;
 }
+ul.drop_down{
+	display:none;
+}
+input[type=radio]{
+	position:absolute;
+	top:-9999em;
+	left:-9999em;
+}
+input[type=radio]:checked ~ ul{
+	position:absolute;
+	display:block;
+	color:white;
+}
 /*end of title/navigation stuff*/
 
 /*content stuff*/
@@ -104,19 +110,14 @@ a.nav_pg_link:hover{
 }
 div#content_container{
 	display:block;
-	padding-left:1em;
-	padding-right:1em;
-	padding-top:.1em;
+	padding:.75em;
 	background-color:#3D3D3D;
 }
 div.content_title{
 	margin-top:1em;
 	padding:.1em;
-	border-style:solid;
-	border-width:.1em;
-	border-color:#121212;
-	border-left-color:#FF5400;
-	border-left-width:.3em;
+	border:.1em solid #121212;
+	border-left:.3em solid #FF5400;
 	font-family:'Iceland', cursive ;
 	font-size:26;
 	color:#D2D2D2;
@@ -125,19 +126,14 @@ div.para_container{
 	margin-top:.4em;
 	padding:.4em;
 	background-color:#B3B3B3;
-	border-style:solid;
-	border-width:.01em;
-	border-color:#3D3D3D;
+	border-style:.01em solid #3D3D3D;
 }
 div.new_point{
 	margin:.6em;
 	padding:.4em;
 	background-color:#D2D2D2;
-	border-style:solid;
-	border-color:#8C8C8C;
-	border-width:.02em;
-	border-bottom-color:#3D3D3D;
-	border-bottom-width:.2em;
+	border:.01em solid #8C8C8C;
+	border-bottom:.2em solid #3D3D3D;
 	font-family:'Iceland', cursive;
 	font-size:20;
 }
@@ -158,7 +154,7 @@ div#footer{
 	bottom:0;
 	height:1.25em;
 	padding:.3em;
-	border:.2em solid #3D3D3D;
+	border:.15em solid #3D3D3D;
 	border-left:.5em solid #FF5400;
 	border-right:.5em solid #FF5400;
 	color:#121212;
