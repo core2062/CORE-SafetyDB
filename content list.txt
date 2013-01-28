@@ -1,180 +1,187 @@
 Include on website:
 	
 	
-	Season safety:
+	*Season safety:
 		
-		Training
+		-Training
 			
-			Training tips
+			~Training tips
+				
 				Sign-in sheet
 				Mentor outlines
-			Documents
+
+			~Documents
+				
 				Tests
-				Tool outlines 
-			Videos
+				Tool outlines
+
+			~Videos
+				
 				Tool demos
 				Training run-through
 		
-		Procedures to follow during season
+		-Procedures to follow during season
 			
-			Inspection forms
-			5’s’
+			~Inspection forms
+			~5’s’
 		
-		Things to have on hand during build season
+		-Things to have on hand during build season
 			
-			MSDS
-			First aid kit
-			Eye-wash
-			PPE
+			~MSDS
+			~First aid kit
+			~Eye-wash
+			~PPE
 
 
-Competition
+	*Competition
 	
-	General competition safety
+		-General competition safety
 		
-		Buddy system/count off
-		Set evacuation point
-		Travel in pairs
-		Know phone numbers of emergency contacts/mentors
+			~Buddy system/count off
+			~Set evacuation point
+			~Travel in pairs
+			~Know phone numbers of emergency contacts/mentors
 	
-	Pit
+		-Pit
 
-		Ergonomics
+			~Ergonomics
 			
-			Padded floor
-			Organized
-			Room to work
+				Padded floor
+				Organized
+				Room to work
 
-		Safety items to have + links to all of them
+			~Safety items to have + links to all of them
 			
-			Fire Extinguisher
-			5’s’
-			First aid kit
-			Eye-wash station
-			Battery spill kit
-			PPE
-			Earplugs
-			Safety glasses
-				Proper colors
-			Closed-toe shoes
-			MSDS
-			Inspection forms
-			Safety manual
+				Fire Extinguisher
+				5’s’
+				First aid kit
+				Eye-wash station
+				Battery spill kit
+				PPE
+				Earplugs
+				Safety glasses
+					--Proper colors
+				Closed-toe shoes
+				MSDS
+				Inspection forms
+				Safety manual
 
-		Pit practices
+			~Pit practices
 			
-			Chaining off
-			Head-count limit
-			5’s’ as applied to pit
-				Sweep
-				Tape off/organize
-				Inspect
-			Robot escort
-				Visible and appropriately loud
-			Watch for visitor safety
-			No food/drink
-			Demonstrations to other teams
-			Trash Patrol
-			Clean glasses
-			Evacuation point posted
-			Awareness posters
+				Chaining off
+				Head-count limit
+				5’s’ as applied to pit
+					--Sweep
+					--Tape off/organize
+					--Inspect
+				Robot escort
+					--Visible and appropriately loud
+				Watch for visitor safety
+				No food/drink
+				Demonstrations to other teams
+				Trash Patrol
+				Clean glasses
+				Evacuation point posted
+				Awareness posters
 
-		Pictures of our pit
+			~Pictures of our pit
 			
-			Our pit panorama
+				Our pit panorama
 
 
-Database
+	*Database
 	
-	MSDS
+		-MSDS
 		
-		What is MSDS? page
-		How to use video
-		MSDS database
+			~What is MSDS? page
+			~How to use video
+			~MSDS database
 
-	Safety procedures
+		-Safety procedures
 		
-		FIRST aid
-			How to use
-			Basic items
-			Replace if expired
-			Video
-		5’s
-			History
-			What each ‘s’ means
-			How to implement
-			Video
+			~FIRST aid
+				
+				How to use
+				Basic items
+				Replace if expired
+				Video
 
-		Batteries
+			~5’s
+				
+				History
+				What each ‘s’ means
+				How to implement
+				Video
+
+			~Batteries
 			
-			How to carry
-			How to test
-			How to clean up spill
-			Charging procedures
-				Proper airflow
-				Place battery tags in when not charging
-				Don’t leave charging over night
-				Watch for bulging
-			Video
+				How to carry
+				How to test
+				How to clean up spill
+				Charging procedures
+					--Proper airflow
+					--Place battery tags in when not charging
+					--Don’t leave charging over night
+					--Watch for bulging
+				Video
 
-		PPE
-			
-			Video
-			Safety glasses
-				Proper colors
-				Glasses vs. goggles
-			Gloves
-				When to wear/not to wear
-			Shoes
-				Proper types
-			Earplugs
-				Decibel limits
-				How they work
-			Clothing
-				No loose/ baggy clothing
-				Tuck in all strings
-				Jewelry
+			~PPE
+				
+				Video
+				Safety glasses
+					--Proper colors
+					--Glasses vs. goggles
+				Gloves
+					--When to wear/not to wear
+				Shoes
+					--Proper types
+				Earplugs
+					--Decibel limits
+					--How they work
+				Clothing
+					--No loose/ baggy clothing
+					--Tuck in all strings
+					--Jewelry
 
-		Lifting
-
-			Legs not back
-			Never heavy above your head
-
-		Ladder
-
-			Stable
-			Never step above marked step
-			Don’t lean/shake
-			Video
-
-		LOTO
-
-			When to use
-			How to use
-			Who to give tags to 
-			Authorized/affected
-			Video
-
-		Fire extinguishers
-
-			Classes
-			PASS
-			Video
-
-	Eye-wash
-
-		Consult MSDS while washing
-		If have eyewash station, use it
-		If no station on hand, wash for 15 timed minutes
-		Watch for irritation
-		Video
-
-	Inspection forms
-		
-		Robot
-			Inspect weekly during build season
-			Inspect after every match at competition
-				2-4 person job
-	Pit
+			~Lifting
 	
-		Inspect twice daily during competition
+				Legs not back
+				Never heavy above your head
+
+			~Ladder
+
+				Stable
+				Never step above marked step
+				Don’t lean/shake
+				Video
+
+			~LOTO
+	
+				When to use
+				How to use
+				Who to give tags to 
+				Authorized/affected
+				Video
+
+			~Fire extinguishers
+
+				Classes
+				PASS
+				Video
+
+			~Eye-wash
+
+				Consult MSDS while washing
+				If have eyewash station, use it
+				If no station on hand, wash for 15 timed minutes
+				Watch for irritation
+				Video
+
+			~Inspection forms
+		
+				Robot
+					--Inspect weekly during build season
+					--Inspect after every match at competition
+					--2-4 person job
+				Pit
+					--Inspect twice daily during competition
