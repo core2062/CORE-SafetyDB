@@ -51,7 +51,7 @@ div#title_bar{
 	width:82.75%;
 	right:0em;
 	top:7.3em;
-	padding:.3em .3em .3em  .4em;
+	padding:.3em .3em .3em .4em;
 	border:.15em solid #3D3D3D;
 	border-right:.5em solid #FF5400;
 	border-left:.5em solid #FF5400;
@@ -77,19 +77,41 @@ ul#top_navbar{
 }
 li.navbar_buttons{
 	display:inline;
-	margin-right:3.75em;
-}
-a.nav_pg_link{
+	margin-right:2em;
 	text-decoration:none;
 	color:#D2D2D2;
 	font-family:'Iceland', cursive;
 	font-size:23;
 	opacity:1;
 }
-a.nav_pg_link:hover{
+.navbar_buttons span{
+	margin-left:1em;
+	font-size:11;
+}
+a.main{
+	text-decoration:none;
+	color:#D2D2D2;
+	font-family:'Iceland', cursive;
+	font-size:23;
+	opacity:1;
+}
+a.main:hover{
 	color:#FF5400;
 }
+
+/*drop down menu stuff*/
+
+a.sub{
+	display:block;
+	padding:.3em .75em .3em .75em;
+	text-decoration:none;
+	color:#0f0f0f;
+	font-family:'Iceland', cursive;
+	font-size:18;
+	opacity:1;
+}
 ul.drop_down{
+	position:absolute;
 	display:none;
 }
 input[type=radio]{
@@ -98,9 +120,19 @@ input[type=radio]{
 	left:-9999em;
 }
 input[type=radio]:checked ~ ul{
-	position:absolute;
 	display:block;
-	color:white;
+	z-index:5;
+}
+.drop_down li{
+	position:relative;
+	padding:.25em 1em .25em .1em; 
+	background-color:#D2D2D2;
+	border:.05em solid #8C8C8C;
+	border-bottom:.01em solid #3D3D3D;
+	color:#0f0f0f;
+}
+li.menu:hover{
+	background-color:#FF5400;
 }
 /*end of title/navigation stuff*/
 
@@ -136,13 +168,11 @@ div.new_point{
 	border-bottom:.2em solid #3D3D3D;
 	font-family:'Iceland', cursive;
 	font-size:20;
+	color:#0f0f0f;
 }
 p.para{
 	margin-top:0;
 	margin-bottom:1em;
-}
-p.new_point:hover{
-	border-bottom-color:#FF5400;
 }
 /*end of content stuff*/	
 
