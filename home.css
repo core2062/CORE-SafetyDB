@@ -113,6 +113,7 @@ a.sub{
 ul.drop_down{
 	position:absolute;
 	display:none;
+	list-style:none;
 }
 input[type=radio]{
 	position:absolute;
@@ -125,7 +126,7 @@ input[type=radio]:checked ~ ul{
 }
 .drop_down li{
 	position:relative;
-	padding:.25em 1em .25em .1em; 
+	padding:.2em 1em .2em .1em; 
 	background-color:#D2D2D2;
 	border:.05em solid #8C8C8C;
 	border-bottom:.01em solid #3D3D3D;
@@ -133,6 +134,7 @@ input[type=radio]:checked ~ ul{
 }
 li.menu:hover{
 	background-color:#FF5400;
+	list-style:none;
 }
 /*end of title/navigation stuff*/
 
