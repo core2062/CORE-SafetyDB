@@ -44,7 +44,7 @@ div#Header{
 	opacity:1;
 }
 em{
-	color:#FF5400;
+	color:#FB611E;
 	font-style:normal;
 }
 div#title_bar{
@@ -52,12 +52,12 @@ div#title_bar{
 	right:0em;
 	top:7.3em;
 	padding:.3em .3em .3em .4em;
-	border:.15em solid #3D3D3D;
-	border-right:.5em solid #FF5400;
-	border-left:.5em solid #FF5400;
+	border-right:.5em solid #FB611E;
+	border-left:.5em solid #FB611E;
 	font-family:'Iceland', cursive;
 	font-size:16;
 	color:#121212;
+	opacity:1;
 }
 /*end of header stuff*/
 
@@ -69,33 +69,21 @@ div#title_bar{
 }
 ul#top_navbar{
 	top:-1em;
-	min-height: 2em;
+	min-height:2em;
+	max-height:4em;
 	margin-top:4em;
 	padding-top:.5em;
 	border-top:.2em solid #3D3D3D;
 	border-bottom:.2em solid #3D3D3D;
-	text-align:justify;
-	-ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
 }
 li.navbar_buttons{
-	display:inline-block;
 	width:20%;
+	display:inline-block;
 	max-height:1em;
-	text-decoration:none;
-	text-align:justify;
-	-ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
 	color:#D2D2D2;
 	font-family:'Iceland', cursive;
 	font-size:23;
 	opacity:1;
-}
-span.stretcher{
-	width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0;
 }
 .navbar_buttons span{
 	margin-left:1em;
@@ -109,7 +97,7 @@ a.main{
 	opacity:1;
 }
 a.main:hover{
-	color:#FF5400;
+	color:#FB611E;
 }
 
 /*drop down menu stuff*/
@@ -138,7 +126,7 @@ ul.drop_down{
 	color:#0f0f0f;
 }
 li.menu:hover{
-	background-color:#FF5400;
+	background-color:#FB611E;
 	list-style:none;
 }
 a.sub{
@@ -168,11 +156,12 @@ div#content_container{
 div.content_title{
 	margin-top:1em;
 	padding:.1em;
-	border:.1em solid #121212;
-	border-left:.3em solid #FF5400;
+	padding-left:.25em;
+	border-left:.3em solid #FB611E;
 	font-family:'Iceland', cursive ;
 	font-size:26;
 	color:#D2D2D2;
+	opacity:1;
 }
 div.para_container{
 	margin-top:.4em;
@@ -205,8 +194,8 @@ div#footer{
 	height:1.25em;
 	padding:.3em;
 	border:.15em solid #3D3D3D;
-	border-left:.5em solid #FF5400;
-	border-right:.5em solid #FF5400;
+	border-left:.5em solid #FB611E;
+	border-right:.5em solid #FB611E;
 	color:#121212;
 	opacity:.7;
 }
