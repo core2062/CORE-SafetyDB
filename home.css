@@ -74,15 +74,28 @@ ul#top_navbar{
 	padding-top:.5em;
 	border-top:.2em solid #3D3D3D;
 	border-bottom:.2em solid #3D3D3D;
+	text-align:justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
 }
 li.navbar_buttons{
-	display:inline;
-	margin-right:2em;
+	display:inline-block;
+	width:20%;
+	max-height:1em;
 	text-decoration:none;
+	text-align:justify;
+	-ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
 	color:#D2D2D2;
 	font-family:'Iceland', cursive;
 	font-size:23;
 	opacity:1;
+}
+span.stretcher{
+	width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
 }
 .navbar_buttons span{
 	margin-left:1em;
@@ -100,33 +113,25 @@ a.main:hover{
 }
 
 /*drop down menu stuff*/
-
-a.sub{
-	display:block;
-	padding:.3em .75em .3em .75em;
-	text-decoration:none;
-	color:#0f0f0f;
-	font-family:'Iceland', cursive;
-	font-size:18;
-	opacity:1;
-}
-ul.drop_down{
-	position:absolute;
-	display:none;
-	list-style:none;
-}
 input[type=radio]{
 	position:absolute;
 	top:-9999em;
 	left:-9999em;
 }
 input[type=radio]:checked ~ ul{
+	width:8em;
+	position:absolute;
 	display:block;
 	z-index:5;
 }
+ul.drop_down{
+	left:-1.75em;
+	display:none;
+	margin-top:.5em;
+	list-style:none;
+}
 .drop_down li{
 	position:relative;
-	padding:.2em 1em .2em .1em; 
 	background-color:#D2D2D2;
 	border:.05em solid #8C8C8C;
 	border-bottom:.01em solid #3D3D3D;
@@ -135,6 +140,19 @@ input[type=radio]:checked ~ ul{
 li.menu:hover{
 	background-color:#FF5400;
 	list-style:none;
+}
+a.sub{
+	display:inline-block;
+	padding:.3em .75em .3em .75em;
+	text-decoration:none;
+	color:#0f0f0f;
+	font-family:'Iceland', cursive;
+	font-size:18;
+	opacity:1;
+}
+.menu span{
+	margin:none;
+	display:inline;
 }
 /*end of title/navigation stuff*/
 
