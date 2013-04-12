@@ -44,16 +44,18 @@ div#Header{
 	opacity:1;
 }
 em{
-	color:#FB611E;
+	color:#ff5400;
 	font-style:normal;
 }
-div#title_bar{
-	width:82.75%;
+#title_bar{
+	width:72%;
 	right:0em;
 	top:7.3em;
 	padding:.3em .3em .3em .4em;
 	border-right:.5em solid #FB611E;
 	border-left:.5em solid #FB611E;
+	border-top:.01em solid #8C8C8C;
+	border-bottom:.01em solid #8C8C8C;
 	font-family:'Iceland', cursive;
 	font-size:16;
 	color:#121212;
@@ -71,14 +73,14 @@ ul#top_navbar{
 	top:-1em;
 	min-height:2em;
 	max-height:4em;
-	margin-top:4em;
+	margin-top:3em;
 	padding-top:.5em;
 	border-top:.2em solid #3D3D3D;
 	border-bottom:.2em solid #3D3D3D;
 }
 li.navbar_buttons{
-	width:20%;
 	display:inline-block;
+	margin-right:2.25em;
 	max-height:1em;
 	color:#D2D2D2;
 	font-family:'Iceland', cursive;
@@ -90,6 +92,7 @@ li.navbar_buttons{
 	font-size:11;
 }
 a.main{
+	float:left;
 	text-decoration:none;
 	color:#D2D2D2;
 	font-family:'Iceland', cursive;
@@ -107,7 +110,7 @@ input[type=radio]{
 	left:-9999em;
 }
 input[type=radio]:checked ~ ul{
-	width:8em;
+	width:9em;
 	position:absolute;
 	display:block;
 	z-index:5;
@@ -115,7 +118,7 @@ input[type=radio]:checked ~ ul{
 ul.drop_down{
 	left:-1.75em;
 	display:none;
-	margin-top:.5em;
+	margin-top:1.4em;
 	list-style:none;
 }
 .drop_down li{
@@ -151,10 +154,15 @@ a.sub{
 div#content_container{
 	display:block;
 	padding:.75em;
+	padding-top:.1em;
 	background-color:#3D3D3D;
+	-moz-box-shadow:inset 0 0 10px #191919;
+    -webkit-box-shadow:inset 0 0 10px #191919;
+    box-shadow: inset 0 0 10px #191919;
 }
 div.content_title{
-	margin-top:1em;
+	margin-top:1.2em;
+	margin-bottom:.5em;
 	padding:.1em;
 	padding-left:.25em;
 	border-left:.3em solid #FB611E;
@@ -188,16 +196,19 @@ p.para{
 /*footer stuff*/
 .footer{
 }
-div#footer{
+#footer{
 	margin-top:1.25em;
 	bottom:0;
 	height:1.25em;
-	padding:.3em;
-	border:.15em solid #3D3D3D;
-	border-left:.5em solid #FB611E;
+	padding:.3em .3em .3em .4em;
 	border-right:.5em solid #FB611E;
+	border-left:.5em solid #FB611E;
+	border-top:.01em solid #8C8C8C;
+	border-bottom:.01em solid #8C8C8C;
+	font-family:'Iceland', cursive;
+	font-size:16;
 	color:#121212;
-	opacity:.7;
+	opacity:1;
 }
 span.footer_cont{
 	font-family:'Iceland', cursive;
@@ -206,9 +217,9 @@ span.footer_cont{
 }
 span#cont1{
 	position:absolute;
-	left:.7em;
+	left:1em;
 }
 span#cont2{
 	position:absolute;
-	right:.7em;
+	right:1em;
 }
